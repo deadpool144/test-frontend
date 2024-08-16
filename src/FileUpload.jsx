@@ -27,7 +27,7 @@ const FileUpload = () => {
   return (
     <div>
       <input type="file" onChange={handleFileChange} />
-      <button onClick={handleUpload}>Upload File</button>
+      <button onClick={handleUpload} className='border-2 rounded-md m-1 px-1 py-1 hover:text-white hover:bg-slate-800 duration-500'>Upload File</button>
     </div>
   );
 };
